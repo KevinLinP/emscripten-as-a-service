@@ -8,6 +8,7 @@
   "author": "Kevin Lin",
   "license": "ISC",
   "devDependencies": {
+    "axios": "^0.27.2",
     "jest": "^28.1.0"
   }
 }
