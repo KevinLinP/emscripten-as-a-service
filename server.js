@@ -3,7 +3,7 @@ const { execSync } = require("child_process");
 
 http.createServer(function (req, res) {
   try {
-    const version = execSync("emcc --version").toString()
+    const version = execSync("emsdk-main/upstream/emscripten/emcc --version").toString()
     res.write(version)
   } catch (error) {
     console.log(error)
